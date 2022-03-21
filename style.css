@@ -1,0 +1,174 @@
+
+/* **********************Global************* */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;    
+    line-height: 1.5;
+    
+}
+
+body {
+    background-color: #000;
+    color: rgba(255, 255, 255, 1);
+}
+
+#top-navbar1 p, 
+#top-navbar2 p {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+/* ***************Left Navbar*************** */
+
+header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    padding: 20px 30px 10px;
+}
+
+header img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+}
+
+header u {
+    text-decoration: none;
+    border-bottom: 3px solid #fff;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    width: 300px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-right: 2px solid #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+#navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#navbar button {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+
+#navbar button:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/******************* Top Navbar1 ***********************/
+#top-navbar1 {
+    height: 50px;
+    width: auto;
+    margin-left: 300px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/******************* Top Navbar2 ***********************/
+#top-navbar2 {
+    height: 50px;
+    width: auto;
+    margin-left: 300px;
+    padding: 20px;
+    text-align: right;
+    overflow: hidden;
+    background-color: #333;
+}
+
+
+/******************* Form ***********************/
+
+form {
+    margin-left: 300px;
+    display: block;
+    padding-bottom: 50px;
+}
+
+.container {
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #333;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #333;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #333;
+  text-align: center;
+}
+
+
+#footer{
+    background-color: #333;
+    color: #eee;
+    padding: 10px;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+}
